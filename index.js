@@ -23,6 +23,6 @@ function appendDriver(name) {
 }
 
 function prependDriver(name) {
-  return name.concat(drivers);
+  return [name].concat(drivers);
 }
 
